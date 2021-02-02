@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sound studio</title>
+    <style>
+        .modal{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Front page -->
+    <section class="front-page" id="home">
+    <header class="header">
+        <div class="nav-box-btn" id="mobile-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+            <nav class="nav-box" id="mobile-menu">
+                <div class="container">
+                <ul class="nav-box-list">
+                    <a href="#home">
+                        <li class="nav-box-links">ГЛАВНАЯ</li>
+                    </a>
+                    <a href="#services">
+                        <li class="nav-box-links">УСЛУГИ</li>
+                    </a>
+                    <a href="#about">
+                        <li class="nav-box-links">О НАС</li>
+                    </a>
+                    <a href="#projects">
+                        <li class="nav-box-links">НАШИ РАБОТЫ</li>
+                    </a>
+                    <a href="#contacts">
+                        <li class="nav-box-links">КОНТАКТЫ</li>
+                    </a>
+                </ul>
+                </div>
+            </nav>
+            <div class="front-page-content wow animate__animated animate__fadeIn">
+                <div class="container">
+                    <div class="font-page-text">
+                        <h1 class="front-page-title">СТУДИЯ<br> 
+                            ЗВУКОЗАПИСИ <span>|</span> Запорожье
+                        </h1>
+                        <p class="front-page-subtitle">Запись <span>|</span> сведение <span>|</span> аранжировка<br>
+                            дистрибьюция <span>|</span> продвижение <span>|</span> дизайн
+                        </p>
+                        <div class="front-page-btn">
+                            <button type="button" id="btn-modal" class="front-page-button">Связаться</button>
+                        </div>
+                    </div>
+                    <div class="arrow-box">
+                        <div class="arrow-down">
+                            <a href="#about">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </header>
+</section>  
+
+    <!-- About page -->
+    <section>
+    <main class="main-page">
+        <div class="container">
+            <div class="main-content wow animate__animated animate__fadeInLeft">
+                <div class="main-text-box">
+                    <p class="main-title">студия звукозаписи</p>
+                    <div class="content-line"></div>
+                    <h2 class="main-subtitle">Red star<br> Production</h2>
+                </div>
+                <div class="main-info-box">
+                    <img src="img/smoke_PNG55173.png" alt="" class="main-info-img">
+                    <p class="main-info-text">
+                        Современная студия звукозаписи,<br>
+                         собранная специально для вокала<br>
+                          и акустических инструментов.<br>
+                           Идеальный вариант для<br>
+                            исполнителей любого уровня.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+</section>
+
+    <!-- Slide page -->
+    <section>
+    <!-- Slider -->
+    <div class="slider wow animate__animated animate__fadeIn" id="about">
+        <div class="item">
+            <img src="/img/pexels-photo-5657660.jpeg" alt="">
+            <div class="slideText">
+                Звукорежиссеры индивидуально подходят к работе с<br>
+                 каждым клиентом, помогут достичь наилучшего результата<br>
+                  исходя из ваших способностей.
+            </div>
+        </div>
+        <div class="item">
+            <img src="/img/02.jpeg" alt="">
+            <div class="slideText">
+                Cтудия оборудована самым современным железом от мировых лидеров в музыкальной индустрии
+            </div>
+        </div>
+        <div class="item">
+            <img src="/img/03.jpeg" alt="">
+            <div class="slideText">Наша студия гарантирует качественную работу и фирменное<br> звучание каждого трека</div>
+        </div>
+        <div class="item">
+            <img src="/img/07.jpeg" alt="">
+            <div class="slideText">Используется лучшее традиционное аналоговое и современное цифровое оборудование.</div>
+        </div>
+        <div class="item">
+            <img src="/img/06.jpeg" alt="">
+            <div class="slideText"> Вы всегда сможете найти единомышленников среди наших клиентов.</div>
+        </div>
+        <a class="prev" onclick="minusSlide()">&#10094;</a>
+        <a class="next" onclick="plusSlide()">&#10095;</a>
+    </div>
+    </section>
+
+    <!-- Services page -->
+    <section class="services-page" id="services">
+        <div class="container">
+            <div class="services-content">
+                <h3 class="services-title">
+                    Услуги
+                </h3>
+                <div class="services-content-box" >
+                    <div class="services-items-box wow animate__animated animate__fadeInLeft">
+                        <img src="img/Services1.jpeg" alt="" class="services-item-img">
+                        <h3 class="services-items-text">ЗАПИСЬ ПЕСНИ</h3>
+                        <p class="services-items-subtext">Запись и обработка<br>
+                             до 3-х человек  на вашу<br> минусовку</p>
+                    </div>
+                    <div class="services-items-box wow animate__animated animate__fadeIn">
+                        <img src="img/Services2.jpeg" alt="" class="services-item-img">
+                        <h3 class="services-items-text">АРАНЖИРОВКА</h3>
+                        <p class="services-items-subtext">Создание музыки на основе<br>
+                             ваших идей и предпочтений.</p>
+                    </div>
+                    <div class="services-items-box wow animate__animated animate__fadeInRight">
+                        <img src="img/Services3.jpeg" alt="" class="services-item-img">
+                        <h3 class="services-items-text">ПЕСНЯ ПОД КЛЮЧ</h3>
+                        <p class="services-items-subtext">Сочинение текста,<br> музыки, запись и обработка<br>
+                             голоса.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Price page -->
+    <section class="price-page">
+        <div class="container">
+            <h4 class="price-title wow animate__animated animate__fadeInLeft">Прайс</h4>
+            <div class="price-content wow animate__animated animate__fadeInRight">
+                <div class="price-content-box">
+                    <div class="price-content-items">
+                        <p class="price-items-title">ЗАПИСЬ</p>
+                        <p class="price-items-subtitle">Час записи вокала или инструментов</p>
+                    </div>
+    
+                    <div class="price-numbers-items">
+                        <p class="price-number">от 50 грн.</p>
+                    </div>
+                </div>
+                <div class="price-content-box">
+                    <div class="price-content-items">
+                        <p class="price-items-title">СВЕДЕНИЕ</p>
+                        <p class="price-items-subtitle">Стоимость рассчитывается исходя из сложности работы</p>
+                    </div>
+    
+                    <div class="price-numbers-items">
+                        <p class="price-number">от 80 грн.</p>
+                    </div>
+                </div>
+                <div class="price-content-box">
+                    <div class="price-content-items">
+                        <p class="price-items-title">АРАНЖИРОВКА</p>
+                        <p class="price-items-subtitle">Написание аранжировок, стихов, продюсирование вокала, песня под ключ</p>
+                    </div>
+    
+                    <div class="price-numbers-items">
+                        <p class="price-number">от 120 грн.</p>
+                    </div>
+                </div>
+                <div class="price-content-box">
+                    <div class="price-content-items">
+                        <p class="price-items-title">ПРОДВИЖЕНИЕ</p>
+                        <p class="price-items-subtitle">Разработка стратегии продвижения в сети интернет, реклама в соц. сетях</p>
+                    </div>
+    
+                    <div class="price-numbers-items">
+                        <p class="price-number">от 70 грн.</p>
+                    </div>
+                </div>
+                <div class="price-content-box">
+                    <div class="price-content-items">
+                        <p class="price-items-title">ДИЗАЙН</p>
+                        <p class="price-items-subtitle">Обложки для треков, альбомов, Stories в Instagram</p>
+                    </div>
+    
+                    <div class="price-numbers-items">
+                        <p class="price-number">от 30 грн.</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects page -->
+    <section class="project-page" id="projects">
+        <div class="container">
+            <div class="projcect-content">
+                <div class="project-title">Наши работы</div>
+            </div>
+            <div class="project-items-box">
+                <img src="img/pexels-photo-5648350.jpeg" alt="" class="project-items-img wow animate__animated animate__fadeIn">
+                <img src="img/drumn.jpeg" alt="" class="project-items-img wow animate__animated animate__fadeIn">
+                <img src="img/003.jpeg" alt="" class="project-items-img wow animate__animated animate__fadeIn">
+                <img src="img/projects2.jpeg" alt="" class="project-items-img wow animate__animated animate__fadeIn">
+                <img src="img/projects4.jpeg" alt="" class="project-items-img wow animate__animated animate__fadeIn">
+                <img src="img/rpjects3.jpeg" alt="" class="project-items-img wow animate__animated animate__fadeIn">
+            </div>
+            <div class="projects-button">
+                <a href="#">
+                    <button type="button" class="projects-btn">Больше информации</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts page -->
+    <footer class="contacs-page" id="contacts">
+        <div class="container">
+            <div class="contacts-title">
+                Контакты:
+            </div>
+            <div class="contacts-content">
+                <div class="contacts-phone">
+                        <i class="fas fa-phone-square-alt"></i>
+                        <a href="tel:0508885225">0508885225</a>
+                </div>
+                <div class="contacts-mail">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:redstarstd@gmail.com">redstarstd@gmail.com</a>
+                </div>
+                <div class="contacts-links">
+                    <a href="#">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-vk"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="contacts-descr">
+                Prod by Alex Verniy
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Modals -->
+    <div class="modal" id="modal-content">
+        <div class="container">
+            <div class="modal-content">
+                <div class="modal-close-btn" id="modal-close-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="modal-title">
+                    Оставь заявку
+                </div>
+                <div class="modal-subtitle">
+                    Мы свяжемся с тобой в ближайшее время
+                </div>
+                <form action="" class="form-content">
+                    <input type="text" name="" id="" class="front-input" placeholder="Телефон">
+                    <input type="text" name="" id="" class="front-input"  placeholder="Имя">
+                    <a href="#">
+                        <button type="button" class="form-btn">Отправить</button>
+                    </a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+     integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+     <script src="js/wow.min.js"></script>
+     <script>
+        new WOW().init();
+        </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
